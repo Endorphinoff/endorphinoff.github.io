@@ -21,11 +21,12 @@ header{
 	display: block;
 	background: #DAFF7FFF;
 	padding: 15px 5px 15px 5px;
-	font-size: 20px;
+	font-size: 19px;
 	color: blue;
 	text-decoration: none;
 	text-shadow:0 0 5px #00c6ff;
 	border-radius: 16px;
+	font-family: Calibri;
 }
 .dws-menu > ul li{
 	position: relative;
@@ -70,7 +71,7 @@ header{
 /*Содержимое*/
 .content{
 	height: 750px; 
-	width: 853px; 
+	width: 768px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	background: #DAFF7FFF;
@@ -87,7 +88,7 @@ header{
 }
 .contentKuhnya{
 	height: 750px; 
-	width: 833px; 
+	width: 748px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
 	overflow-y: scroll;
@@ -105,7 +106,7 @@ header{
 }
 .contentDikorosi{
 	height: 750px; 
-	width: 833px; 
+	width: 748px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
 	overflow-y: scroll;
@@ -117,7 +118,7 @@ header{
 }
 .podval{
 	height: 50px; 
-	width: 853px; 
+	width: 768px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	border-radius: 16px;
