@@ -1,11 +1,12 @@
 body{
-	background-image: url(endorphinoff.github.io/img/bg16x10.jpg);
+	background-image: url(bg16x10.jpg);
 }
 header{
 	margin: auto;
 }
 .dws-menu *{
-	margin: 0;
+	max-width: 853px;
+	margin: auto;
 	padding: 0;
 }
 .dws-menu ul,
@@ -69,11 +70,14 @@ header{
 /*Содержимое*/
 .content{
 	height: 750px; 
-	width: 855px; 
+	width: 853px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	background: #DAFF7FFF;
 	border-radius: 16px;
+}
+.enter{
+	margin-left: 20px;
 }
 .contentKuhnya:first-child{
 	border-left: 0px solid #b2b3b5;
@@ -93,9 +97,27 @@ header{
 	background: #DAFF7FFF;
 	padding: 10px;
 }
+.contentDikorosi:first-child{
+	border-left: 0px solid #b2b3b5;
+}
+.contentDikorosi:last-child{
+	position: absolute;
+}
+.contentDikorosi{
+	height: 750px; 
+	width: 833px; 
+	margin: 10px auto;
+	overflow-x: hidden; 
+	overflow-y: scroll;
+	font-size: 14pt;
+	opacity: 0.9;
+	border-radius: 16px;
+	background: #DAFF7FFF;
+	padding: 10px;
+}
 .podval{
 	height: 50px; 
-	width: 855px; 
+	width: 853px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	border-radius: 16px;
@@ -118,7 +140,7 @@ header{
 }
 .clock{
     width:300px; 
-    margin: 0 0 0 500px; 
+    margin: 0 0 0 520px; 
     padding:16px; 
     /*border:1px solid #333; */
     color:#000; 
@@ -182,3 +204,5 @@ header{
         text-shadow:0 0 20px #00c6ff; 
     }	
 }
+
+/*ТАЙМЕР*/

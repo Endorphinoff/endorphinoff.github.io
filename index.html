@@ -2,64 +2,76 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css\style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>VMenu</title>
 </head>
 <body>
-<header>
-	<nav class="dws-menu">
-		<ul>
-			<li><a href="index.html"><i class="fa fa-"></i>Главная</a></li>
-			<li><a href="#"><i class="fa fa-"></i>Кухня</a>
-				<ul>
-					<li><a href="kuhnya.html">Безглютен</a></li>
-					<li><a href="#">Дикоросы</a></li>
-					<li><a href="#">Гарниры и мясное</a></li>
-					<li><a href="#">Десерты и перекусы</a></li>
-					<li><a href="#">Детское</a>
-						<ul>
-							<li><a href="#">1-2 года</a></li>
-							<li><a href="#">2-4 года</a></li>
-							<li><a href="#">5-8 лет</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Заправки и соусы</a></li>
-					<li><a href="#">Кисломолочное</a></li>
-					<li><a href="#">Кулинария - советы</a></li>
-					<li><a href="#">Проверенные безглютеновые рецепты</a></li>
-					<li><a href="#">Проверенные рецепты</a></li>
-				</ul>
-			</li>
-			<li><a href="#"><i class="fa fa-"></i>Красота</a></li>
-			<li><a href="#"><i class="fa fa-"></i>Здоровье</a></li>
-			<li><a href="#"><i class="fa fa-"></i>Садоводство</a></li>
-			<li><a href="#"><i class="fa fa-"></i>Лайфхаки</a></li>
-			<li><a href="#"><i class="fa fa-"></i>Травы</a></li>
-			<li><a href="#"><i class="fa fa-"></i>Саморазвитие</a></li>
-			<li><a href="#"><i class="fa fa-"></i>Эфирные масла</a></li>
-		</ul>
-	</nav>
-</header>
-<div class="content">
-	<div class="clock">
-    <div id="Date"></div>
-    <ul>
-        <li id="hours"> </li>
-        <li id="point">:</li>
-        <li id="min"> </li>
-        <li id="point">:</li>
-        <li id="sec"> </li>
-    </ul>
-</div>
-</div>
-<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-<script>
-	//alert("Привет, моя любимая!!!");
-</script>	
+	<header>
+		<nav class="dws-menu">
+			<ul>
+				<li><a href="index.html"><i class="fa fa-"></i>Главная</a></li>
+				<li><a href="#"><i class="fa fa-"></i>Кухня</a>
+					<ul>
+						<li><a href="kuhnya.html">Безглютен</a></li>
+						<li><a href="dikorosi.html">Дикоросы</a></li>
+						<li><a href="#">Гарниры и мясное</a></li>
+						<li><a href="#">Десерты и перекусы</a></li>
+						<li><a href="#">Детское</a>
+							<ul>
+								<li><a href="#">1-2 года</a></li>
+								<li><a href="#">2-4 года</a></li>
+								<li><a href="#">5-8 лет</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Заправки и соусы</a></li>
+						<li><a href="#">Кисломолочное</a></li>
+						<li><a href="#">Кулинария - советы</a></li>
+						<li><a href="#">Проверенные безглютеновые рецепты</a></li>
+						<li><a href="#">Проверенные рецепты</a></li>
+					</ul>
+				</li>
+				<li><a href="#"><i class="fa fa-"></i>Красота</a></li>
+				<li><a href="#"><i class="fa fa-"></i>Здоровье</a></li>
+				<li><a href="#"><i class="fa fa-"></i>Садоводство</a></li>
+				<li><a href="#"><i class="fa fa-"></i>Лайфхаки</a></li>
+				<li><a href="#"><i class="fa fa-"></i>Травы</a></li>
+				<li><a href="#"><i class="fa fa-"></i>Саморазвитие</a></li>
+				<li><a href="#"><i class="fa fa-"></i>Эфирные масла</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="content">
+
+		<div class="eTimer"></div>
+			<div class="clock">
+	    		<div id="Date"></div>
+	    		<ul>
+		        	<li id="hours"> </li>
+		        	<li id="point">:</li>
+		        	<li id="min"> </li>
+		        	<li id="point">:</li>
+		        	<li id="sec"> </li>
+	    		</ul>
+			</div>
+		<div class="enter">
+			<span>Выберите раздел: </span>
+			<select>
+  				<option>Кухня - Безглютен</option>
+  				<option>Кухня - Дикоросы</option>
+			</select>
+			<br><br>
+			<span>Введите текст: </span>
+			<textarea cols="80" rows="30"></textarea>
+			<br><br>
+			<button>Разместить.</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script>//alert("Привет, моя любимая!!!");</script>
 </body>
 <footer class=podval>
-	<div class="radio" align="center" style="max-height:250px; overflow:auto;">
+	<div class="radio" align="right" style="max-height:250px; overflow:auto;">
   		<a href="http://radiopotok.ru/" id="RP_link">Онлайн радио</a>
   		<script type="text/javascript">
 		    <!--
