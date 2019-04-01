@@ -71,7 +71,7 @@ header{
 /*Содержимое*/
 .content{
 	height: 750px; 
-	width: 1002px; 
+	width: 946px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	background: #DAFF7FFF;
@@ -88,7 +88,7 @@ header{
 }
 .contentKuhnya{
 	height: 750px; 
-	width: 928px; 
+	width: 926px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
 	overflow-y: scroll;
