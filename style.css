@@ -5,7 +5,7 @@ header{
 	margin: auto;
 }
 .dws-menu *{
-	max-width: 768px;
+	max-width: 1002px;
 	margin: auto;
 	padding: 0;
 }
@@ -71,7 +71,7 @@ header{
 /*Содержимое*/
 .content{
 	height: 750px; 
-	width: 878px; 
+	width: 1002px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	background: #DAFF7FFF;
@@ -88,7 +88,7 @@ header{
 }
 .contentKuhnya{
 	height: 750px; 
-	width: 748px; 
+	width: 982px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
 	overflow-y: scroll;
