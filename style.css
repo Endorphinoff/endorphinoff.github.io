@@ -118,7 +118,7 @@ header{
 }
 .podval{
 	height: 50px; 
-	width: 982px; 
+	width: 1002px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	border-radius: 16px;
@@ -141,7 +141,7 @@ header{
 }
 .clock{
     width:300px; 
-    margin: 0 0 0 620px; 
+    margin: 0 0 0 650px; 
     padding:16px; 
     /*border:1px solid #333; */
     color:#000; 
