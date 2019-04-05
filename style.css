@@ -1,5 +1,6 @@
 body{
-	background-image: url(bg16x10.jpg);
+	background: url(bg16x10.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 header{
 	margin: auto;
@@ -119,6 +120,14 @@ header{
 .podval{
 	height: 50px; 
 	width: 946px; 
+	margin: 10px auto; 
+	opacity: 0.9; 
+	border-radius: 16px;
+	background: #DAFF7FFF;
+}
+.podvali{
+	height: 50px; 
+	width: 930px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	border-radius: 16px;
