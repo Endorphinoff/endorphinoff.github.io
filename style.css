@@ -1,13 +1,15 @@
 body{
-	background-image: url(bg16x10.jpg);
+	background: url(bg16x10.jpg) no-repeat center center fixed;
+	background-size: cover;
 }
 header{
-	margin: auto;
+	margin: 0;
 }
 .dws-menu *{
-	max-width: 853px;
+	max-width: 768px;
 	margin: auto;
 	padding: 0;
+	font-family: Calibri;
 }
 .dws-menu ul,
 .dws-menu ol{
@@ -21,7 +23,7 @@ header{
 	display: block;
 	background: #DAFF7FFF;
 	padding: 15px 5px 15px 5px;
-	font-size: 20px;
+	font-size: 24px;
 	color: blue;
 	text-decoration: none;
 	text-shadow:0 0 5px #00c6ff;
@@ -70,7 +72,7 @@ header{
 /*Содержимое*/
 .content{
 	height: 750px; 
-	width: 853px; 
+	width: 946px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	background: #DAFF7FFF;
@@ -86,8 +88,8 @@ header{
 	position: absolute;
 }
 .contentKuhnya{
-	height: 750px; 
-	width: 833px; 
+	height: 730px; 
+	width: 910px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
 	overflow-y: scroll;
@@ -96,6 +98,7 @@ header{
 	border-radius: 16px;
 	background: #DAFF7FFF;
 	padding: 10px;
+	font-family: Calibri;
 }
 .contentDikorosi:first-child{
 	border-left: 0px solid #b2b3b5;
@@ -105,7 +108,7 @@ header{
 }
 .contentDikorosi{
 	height: 750px; 
-	width: 833px; 
+	width: 910px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
 	overflow-y: scroll;
@@ -117,13 +120,21 @@ header{
 }
 .podval{
 	height: 50px; 
-	width: 853px; 
+	width: 946px; 
 	margin: 10px auto; 
 	opacity: 0.9; 
 	border-radius: 16px;
 	background: #DAFF7FFF;
 }
-@font-face{
+.podvali{
+	height: 50px; 
+	width: 930px; 
+	margin: 10px auto; 
+	opacity: 0.9; 
+	border-radius: 16px;
+	background: #DAFF7FFF;
+}
+ont-face{
     font-family: 'BebasNeueRegular';
     src: url('fonts/BebasNeue-webfont.eot');
     src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
@@ -140,7 +151,7 @@ header{
 }
 .clock{
     width:300px; 
-    margin: 0 0 0 520px; 
+    margin: 0 0 0 580px; 
     padding:16px; 
     /*border:1px solid #333; */
     color:#000; 
@@ -177,12 +188,10 @@ header{
         opacity:1.0; 
         text-shadow:0 0 20px #00c6ff;
     }
- 
     50% {
         opacity:0; 
         text-shadow:none; 
     }
- 
     100% {
         opacity:1.0; 
         text-shadow:0 0 20px #00c6ff; 
@@ -193,12 +202,10 @@ header{
         opacity:1.0; 
         text-shadow:0 0 20px #00c6ff;
     }
- 
     50% {
         opacity:0; 
         text-shadow:none; 
     }
- 
     100% {
         opacity:1.0; 
         text-shadow:0 0 20px #00c6ff; 
