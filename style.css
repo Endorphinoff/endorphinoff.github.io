@@ -7,6 +7,7 @@ header{
 }
 .dws-menu *{
 	max-width: 768px;
+	max-width: 946px;
 	margin: auto;
 	padding: 0;
 	font-family: Calibri;
@@ -88,7 +89,11 @@ header{
 	position: absolute;
 }
 .contentKuhnya{
+<<<<<<< HEAD
 	height: 730px; 
+=======
+	height: 750px; 
+>>>>>>> fa141214d9bdff8e60c3c27a549979008a1dc764
 	width: 910px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
