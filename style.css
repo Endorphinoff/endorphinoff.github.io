@@ -8,6 +8,7 @@ header{
 	max-width: 946px;
 	margin: auto;
 	padding: 0;
+	font-family: Calibri;
 }
 .dws-menu ul,
 .dws-menu ol{
@@ -26,7 +27,6 @@ header{
 	text-decoration: none;
 	text-shadow:0 0 5px #00c6ff;
 	border-radius: 16px;
-	font-family: Calibri;
 }
 .dws-menu > ul li{
 	position: relative;
@@ -88,7 +88,7 @@ header{
 }
 .contentKuhnya{
 	height: 750px; 
-	width: 926px; 
+	width: 910px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
 	overflow-y: scroll;
@@ -106,7 +106,7 @@ header{
 }
 .contentDikorosi{
 	height: 750px; 
-	width: 926px; 
+	width: 910px; 
 	margin: 10px auto;
 	overflow-x: hidden; 
 	overflow-y: scroll;
