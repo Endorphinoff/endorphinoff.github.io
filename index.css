@@ -20,6 +20,9 @@ body {
 	.dws-menu > ul li a{
 		font-size: 24px;
 	}
+	.footer {
+		width: 50% auto;
+	}
 }
 @media only screen and (max-width : 1900px) {
 	.site {
@@ -27,6 +30,9 @@ body {
 	}
 	.dws-menu > ul li a{
 		font-size: 24px;
+	}
+	.footer {
+		width: 55% auto;
 	}
 }
 @media only screen and (max-width : 1720px) {
@@ -36,6 +42,9 @@ body {
 	.dws-menu > ul li a{
 		font-size: 24px;
 	}
+	.footer {
+		width: 60% auto;
+	}
 }
 @media only screen and (max-width : 1600px) {
 	.site {
@@ -43,6 +52,9 @@ body {
 	}
 	.dws-menu > ul li a{
 		font-size: 24px;
+	}
+	.footer {
+		width: 65% auto;
 	}
 }
 @media only screen and (max-width : 1460px) {
@@ -52,6 +64,9 @@ body {
 	.dws-menu > ul li a{
 		font-size: 24px;
 	}
+	.footer {
+		width: 70% auto;
+	}
 }
 @media only screen and (max-width : 1360px) {
 	.site {
@@ -59,6 +74,9 @@ body {
 	}
 	.dws-menu > ul li a{
 		font-size: 24px;
+	}
+	.footer {
+		width: 75% auto;
 	}
 }
 @media only screen and (max-width : 1260px) {
@@ -68,6 +86,9 @@ body {
 	.dws-menu > ul li a{
 		font-size: 24px;
 	}
+	.footer {
+		width: 80% auto;
+	}
 }
 @media only screen and (max-width : 1180px) {
 	.site {
@@ -75,6 +96,9 @@ body {
 	}
 	.dws-menu > ul li a{
 		font-size: 22px;
+	}
+	.footer {
+		width: 80% auto;
 	}
 }
 @media only screen and (max-width : 1100px) {
@@ -84,6 +108,9 @@ body {
 	.dws-menu > ul li a{
 		font-size: 21px;
 	}
+	.footer {
+		width: 80% auto;
+	}
 }
 @media only screen and (max-width : 1030px) {
 	.site {
@@ -92,6 +119,9 @@ body {
 	.dws-menu > ul li a{
 		font-size: 20px;
 	}
+	.footer {
+		width: 80% auto;
+	}
 }
 @media only screen and (max-width : 1010px) {
 	.site {
@@ -99,6 +129,9 @@ body {
 	}
 	.dws-menu > ul li a{
 		font-size: 20px;
+	}
+	.footer {
+		width: 85% auto;
 	}
 }
 
@@ -109,13 +142,19 @@ body {
 	.dws-menu > ul li a{
 		font-size: 20px;
 	}
+	.footer {
+		width: 85% auto;
+	}
 }
 @media only screen and (max-width : 768px) {
 	.site {
-		width: 95%
+		width: 100%
 	}
 	.dws-menu > ul li a{
 		font-size: 14px;
+	}
+	.footer {
+		width: 100% auto;
 	}
 }
 .site {
@@ -140,14 +179,14 @@ body {
 
 .contentKuhnya {
 	margin: 10px 0 10px 10px;
-	height: 88%;
+	height: 95%;
 	overflow-x: hidden; 
 	overflow-y: scroll;
 }
 
 .contentDikorosi {
 	margin: 10px 0 10px 10px;
-	height: 88%;
+	height: 95%;
 	overflow-x: hidden; 
 	overflow-y: scroll;
 }
@@ -218,6 +257,5 @@ body {
 }
 .footer {
 	height: 59px;
-	width: 50% auto;
 	background: #DAFF7FFF;
 }
