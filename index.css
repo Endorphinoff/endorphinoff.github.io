@@ -101,6 +101,23 @@ body {
 		font-size: 20px;
 	}
 }
+
+@media only screen and (max-width : 1010px) {
+	.site {
+		width: 85%
+	}
+	.dws-menu > ul li a{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width : 768px) {
+	.site {
+		width: 95%
+	}
+	.dws-menu > ul li a{
+		font-size: 14px;
+	}
+}
 .site {
 	margin: 0 auto;
 	height: 100%;
