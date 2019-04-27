@@ -168,7 +168,7 @@ body {
 	flex-direction: column;
 }
 .menu {
-	height: 59px;
+	height: 69px;
 	width: 50% auto;
 	background: #DAFF7FFF;
 }
@@ -191,6 +191,21 @@ body {
 	overflow-y: scroll;
 }
 
+/*главная страница. ввод новых данных*/
+.enter {
+	margin: 10px auto;
+	height: 100%;
+	width: 95%;
+}
+
+.textarea {
+	height: 50%;
+	width: 98.8%;
+}
+
+.btn-salat {
+	background: #DAFF7FFF;
+}
 /*menu*/
 .dws-menu *{
 	max-width: 768px;
