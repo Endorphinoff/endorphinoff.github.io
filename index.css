@@ -137,7 +137,7 @@ body {
 
 @media only screen and (max-width : 1010px) {
 	.site {
-		width: 85%
+		width: 85%;
 	}
 	.dws-menu > ul li a{
 		font-size: 20px;
@@ -146,15 +146,15 @@ body {
 		width: 85% auto;
 	}
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 992px) {
 	.site {
-		width: 100%
+		width: 95%;
 	}
 	.dws-menu > ul li a{
-		font-size: 14px;
+		font-size: 20px;
 	}
 	.footer {
-		width: 100% auto;
+		width: 95% auto;
 	}
 }
 .site {
