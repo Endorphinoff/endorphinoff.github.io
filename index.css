@@ -20,6 +20,9 @@ body {
 	.dws-menu > ul li a{
 		font-size: 24px;
 	}
+	.wrapper {
+		display: none;
+	}
 	.footer {
 		width: 50% auto;
 	}
@@ -103,28 +106,6 @@ body {
 }
 @media only screen and (max-width : 1100px) {
 	.site {
-		width: 80%
-	}
-	.dws-menu > ul li a{
-		font-size: 21px;
-	}
-	.footer {
-		width: 80% auto;
-	}
-}
-@media only screen and (max-width : 1030px) {
-	.site {
-		width: 80%
-	}
-	.dws-menu > ul li a{
-		font-size: 20px;
-	}
-	.footer {
-		width: 80% auto;
-	}
-}
-@media only screen and (max-width : 1010px) {
-	.site {
 		width: 85%
 	}
 	.dws-menu > ul li a{
@@ -134,10 +115,20 @@ body {
 		width: 85% auto;
 	}
 }
-
-@media only screen and (max-width : 1010px) {
+/*@media only screen and (max-width : 1030px) {
 	.site {
-		width: 85%;
+		width: 80%
+	}
+	.dws-menu > ul li a{
+		font-size: 20px;
+	}
+	.footer {
+		width: 80% auto;
+	}
+}*/
+/*@media only screen and (max-width : 1010px) {
+	.site {
+		width: 85%
 	}
 	.dws-menu > ul li a{
 		font-size: 20px;
@@ -145,8 +136,9 @@ body {
 	.footer {
 		width: 85% auto;
 	}
-}
-@media only screen and (max-width : 992px) {
+}*/
+
+@media only screen and (max-width : 1010px) {
 	.site {
 		width: 95%;
 	}
@@ -157,6 +149,22 @@ body {
 		width: 95% auto;
 	}
 }
+
+@media only screen and (max-width : 850px) {
+	.site {
+		width: 95%;
+	}
+	.dws-menu *{
+		display: none;
+	}
+	.wrapper {
+		display: block;
+	}
+	.footer {
+		width: 95% auto;
+	}
+}
+
 .site {
 	margin: 0 auto;
 	height: 100%;
@@ -270,6 +278,169 @@ body {
 	right: -150px;
 	top: 0
 }
+
+/*menu on mobile*/
+.wrapper{
+    margin: 0px auto;
+    width: 100%;
+    background-color: #DAFF7FFF;
+    position: relative;
+    color: blue;
+    text-shadow:0 0 5px #00c6ff;
+    text-align: center;
+    height: 69px;
+    font-family: 'Arial';
+    font-size: 24px;
+}
+
+#check-menu{
+    display: none;
+}
+
+label{
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 40px;
+}
+
+.burger-line{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: blue;
+    transition: .5s all;
+}
+
+.second, .third{
+    top: 18px;
+}
+
+.fourth{
+    top: 28px;
+}
+
+.main-menu{
+    display: block;
+    position: absolute;
+    width: 33%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+}
+
+.main-menu *{
+	max-width: 768px;
+	margin: auto;
+	padding: 0;
+	font-family: Calibri;
+}
+.main-menu ul,
+.main-menu ol{
+	list-style: none;
+}
+.main-menu > ul{
+	display: block;
+	justify-content: center;
+}
+.main-menu > ul li a{
+	display: block;
+	background: #DAFF7FFF;
+	padding: 15px 5px 15px 5px;
+	/*font-size: 24px;*/
+	color: blue;
+	text-decoration: none;
+	text-shadow:0 0 5px #00c6ff;
+	/*border-radius: 16px;*/
+}
+.main-menu > ul li{
+	position: relative;
+	z-index: 10
+}
+.main-menu > ul li > a i.fa{
+	position: relative;
+	top: 15px;
+	left: 12px;
+	font-size: 18px;
+}
+.main-menu > ul li:first-child{
+	border-left: 0px solid #b2b3b5;
+}
+.main-menu > ul li:last-child{
+	border-right: 0px solid #babbbb;
+}
+.main-menu > ul li a:hover{
+	color: black;
+	background: white;
+	/*opacity: 0.9;*/
+}
+/*sub-menu*/
+.main-menu li ul{
+	position: absolute;
+	min-width: 150px;
+	display: none;
+}
+.main-menu li > ul li a{
+	padding: 10px;
+	text-transform: none;
+}
+.main-menu li:hover > ul{
+	display: block;
+}
+.main-menu li > ul li ul{
+	position: absolute;
+	right: -550px;
+	top: 0
+}
+/*
+a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: blue;
+    text-shadow:0 0 5px #00c6ff;
+    text-decoration: none;
+    border-top: 1px solid rgba(255,255,255,.3);
+    background-color: #DAFF7FFF;
+}
+
+a:hover{
+    background-color: white;
+}
+*/
+#check-menu:checked ~ .main-menu{
+    max-height: 500px;
+    font-size: 20px;
+}
+
+#check-menu:checked ~ .first{
+    display: none;
+}
+
+#check-menu:checked ~ .second{
+    transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .third{
+    transform: rotate(-45deg);
+}
+
+#check-menu:checked ~ .fourth{
+    display: none;
+}
+
+/*footer*/
 .footer {
 	height: 59px;
 	background: #DAFF7FFF;
