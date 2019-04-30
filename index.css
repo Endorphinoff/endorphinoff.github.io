@@ -288,7 +288,7 @@ body {
     color: blue;
     text-shadow:0 0 5px #00c6ff;
     text-align: center;
-    height: 69px;
+    height: 59px;
     font-family: 'Arial';
     font-size: 24px;
 }
@@ -330,7 +330,7 @@ label{
 .main-menu{
     display: block;
     position: absolute;
-    width: 33%;
+    width: 100%;
     bottom: 0;
     left: 0;
     transform: translateY(100%);
@@ -358,7 +358,7 @@ label{
 	display: block;
 	background: #DAFF7FFF;
 	padding: 15px 5px 15px 5px;
-	/*font-size: 24px;*/
+	font-size: 24px;
 	color: blue;
 	text-decoration: none;
 	text-shadow:0 0 5px #00c6ff;
@@ -382,12 +382,12 @@ label{
 }
 .main-menu > ul li a:hover{
 	color: black;
-	background: white;
+	background: white;*/
 	/*opacity: 0.9;*/
 }
 /*sub-menu*/
 .main-menu li ul{
-	position: absolute;
+	position: relative;
 	min-width: 150px;
 	display: none;
 }
@@ -397,30 +397,32 @@ label{
 }
 .main-menu li:hover > ul{
 	display: block;
+	position: relative;
+	left: 0px;
 }
 .main-menu li > ul li ul{
-	position: absolute;
-	right: -550px;
+	position: relative;
+	left: 150px;
 	top: 0
 }
-/*
-a{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    color: blue;
-    text-shadow:0 0 5px #00c6ff;
-    text-decoration: none;
-    border-top: 1px solid rgba(255,255,255,.3);
-    background-color: #DAFF7FFF;
-}
+					/*
+					a{
+					    display: block;
+					    width: 100%;
+					    padding: 10px;
+					    color: blue;
+					    text-shadow:0 0 5px #00c6ff;
+					    text-decoration: none;
+					    border-top: 1px solid rgba(255,255,255,.3);
+					    background-color: #DAFF7FFF;
+					}
 
-a:hover{
-    background-color: white;
-}
-*/
+					a:hover{
+					    background-color: white;
+					}
+					*/
 #check-menu:checked ~ .main-menu{
-    max-height: 500px;
+    max-height: 560px;
     font-size: 20px;
 }
 
