@@ -22,30 +22,29 @@
 body {
 
 }
-.main-head {
-	margin-right: auto;
-    margin-left: auto;
+.first-screen {
 	background-color: var(--d);
 	width: 100%;
 
 }
 
-.main-head-container {
+.first-screen-container {
 	width: 1170px;
-	/*height: 100%;*/
+	height: 100vh;
 	margin: 0 auto;
 	background-color: var(--d);
+	position: relative;
 	/*display: flex;
 	flex-direction: column;*/
-	display: grid;
-	grid-template-rows: 1fr;
+	/*display: grid;
+	grid-template-rows: 1fr;*/
 
 }
 
 .bf-menu {
-	/*background-color: var(--d);*/
+	background-color: var(--d);
 	width: 100%;
-	/*height: 96px;*/
+	height: 96px;
 	display: grid;
 	grid-template-columns: 1fr 8fr 3fr;
 	align-items: center;
@@ -88,17 +87,39 @@ body {
 
 }
 
+.first-screen-partners {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+   	/*grid-template-rows: 1fr;*/
+}
+
+.partners {
+	margin: 0 auto;
+}
+
+.first-screen-carusel {
+	width: 100%;
+	height: 45.9%;
+	background-image: url(main1170.jpg);
+	z-index: 1;
+}
+
 .naprav {
 	/*height: 200px;*/
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+
 	/*background-color: #535353;*/
 }
 .nap1, .nap2, .nap3 {
 	background-color: var(--d);
+	border: 5px solid red;
 	/*z-index: 3;*/
 	opacity: 0.1;
+
 }
 .nap1:hover {
 	background-color: var(--d);
@@ -120,6 +141,7 @@ body {
 
 .second-screen-container {
 	width: 1170px;
+	height: 100vh;
 	margin: 0 auto;
 	display: grid;
 	grid-template-rows: 1fr 1fr;
@@ -128,7 +150,7 @@ body {
 .second-screen-about {
 	background-color: grey;
 	display: grid;
-	grid-template-rows: 1fr 3fr;
+	grid-template-rows: 1fr 4fr;
 }
 
 .second-screen-about-colrow {
@@ -138,9 +160,7 @@ body {
    	grid-template-rows: repeat(3, 1fr);
 }
 
-.second-screen-news {
-	background-color: silver;
-}
+
 
 /*#################second-screen-about####################*/
 
@@ -159,12 +179,50 @@ body {
 
 .second-screen-h5 {
 	position: relative;
-	top: -16px;
+	top: 10px;
 	padding-left: 22%;
 }
 
 .second-screen-text {
 	position: relative;
-	top: -30px;
+	top: 20px;
 	padding-left: 22%;
+}
+
+/*#################second-screen-news####################*/
+
+.second-screen-news {
+	background-color: silver;
+}
+
+/*#################fird-screen###########################*/
+
+.fird-screen {
+	background-color: silver;
+	width: 100%;
+}
+
+.fird-screen-container {
+	width: 1170px;
+	height: 100vh;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #90BBA2FF;
+}
+
+.fird-screen-galery {
+	background-color: #FFFF91FF;
+}
+
+.fird-screen-galery-h2 {
+	background-color: #9A3B3BFF;
+}
+
+.fird-screen-schedule {
+	background-color: #FFADFFFF;
+}
+
+.fird-screen-schedule-h2 {
+	background-color: #9A3B3BFF;
 }
