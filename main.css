@@ -28,7 +28,7 @@ body {
 	height: 100%;
 	/*width: 320px;*/
 	margin: 0 auto;
-	background-color: #fcf;
+	/*background-color: #fcf;*/
 }
 
 .first-screen-bf-menu {
@@ -139,6 +139,10 @@ li.dws-li a:hover{
  	.first-screen-container {
 	background-color: var(--d);
 	}
+
+	.bb, .cc, .dd, .ee {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 501px) and (max-width: 767px) {
@@ -153,6 +157,10 @@ li.dws-li a:hover{
 
  	.first-screen-container {
 	background-color: #fff;
+	}
+
+	.aa, .cc, .dd, .ee {
+		display: none;
 	}
 }
 
@@ -173,6 +181,10 @@ li.dws-li a:hover{
  	.first-screen-container {
 	background-color: #aaa;
 	}
+
+	.aa, .bb, .dd, .ee {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -192,6 +204,10 @@ li.dws-li a:hover{
  	.first-screen-container {
 	background-color: #bc5;
 	}
+
+	.aa, .bb, .cc, .ee {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -206,5 +222,9 @@ li.dws-li a:hover{
 
  	.first-screen-container {
 	background-color: #fc5;
+	}
+
+	.aa, .bb, .cc, .dd, {
+		display: none;
 	}
 }
