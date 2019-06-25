@@ -233,10 +233,8 @@ li.dws-li a:hover{
 }
 
 .fifth-screen-container {
-	width: 90vw;
-	max-height: 200vh;
 	margin: 0 auto;
-	overflow-y: auto;
+	width: 90vw;
 }
 
 .fifth-screen-schedule-h1 {
@@ -244,8 +242,50 @@ li.dws-li a:hover{
 	padding: 25px 0;
 }
 
+table {
+	font-size: 10px;
+	align-items: center;
+    /*width: 90vh;  Ширина таблицы */
+    background: white; /* Цвет фона таблицы */
+    color: white; /* Цвет текста */
+    border-spacing: 1px; /* Расстояние между ячейками */
+}
 
+td, th {
+    background: maroon; /* Цвет фона ячеек */
+    padding: 0px; /* Поля вокруг текста */
+}
 
+/*00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
+
+.footer {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	background-color: var(--d);
+}
+
+.footer-container {
+	width: 90vw;
+	margin: 0 auto;
+	background-color: var(--d);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+}
+
+.footer-container-social {
+	color: white;
+}
+
+.footer-container-map {
+	background: url(img/map.jpg);
+}
+
+.footer-container-contacts {
+	padding: 10px;
+	color: white;
+}
 /*@media only screen and (max-width : 480px) {
 	.first-screen-container {
 	width: 420px;
