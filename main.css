@@ -56,22 +56,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 ul.dws-ul{
  	display: block;
- 	padding: 0;
- 	/*justify-content: center;*/
 }
 li.dws-li{
  	list-style: none;
- 	padding: 0px;
 }
 li.dws-li a{
  	text-decoration: none;
  	font-size: 42px;
  	color: white;
  	position: relative;
- 	margin-left: 100px;
+ 	margin-left: 50px;
 }
 li.dws-li a i{
- 	margin-right: 30px;
+ 	margin-right: 50px;
 }
 li.dws-li a::before{
 	 content: '';
@@ -133,16 +130,20 @@ li.dws-li a:hover{
 	margin: 0 auto;
 }
 
-.second-screen-h1, .second-screen-h3 {
+.second-screen-h1 {
 	text-align: center;
-	margin: 25px;
-	padding: 50px 0; 
+	padding: 40px 0; 
+}
+
+.second-screen-h3 {
+	text-align: center;
+	padding: 20px 0 30px 0; 
 }
 
 .second-screen-about-imglogo {
 	display: float;
 	float: left;
-	width: 128px;
+	width: 100px;
 	/*margin: 15px;*/
 }
 
@@ -161,20 +162,21 @@ li.dws-li a:hover{
 
 .fird-screen-container {
 	width: 90vw;
+	max-height: 200vh;
 	margin: 0 auto;
+	overflow-y: auto;
 }
 
 .fird-screen-news-h1, .fird-screen-news-h3 {
 	text-align: center;
-	margin: 25px;
-	padding: 10px 0;
+	padding: 25px 0;
 }
 
 .pic {
 	margin: 5px auto;
 	cursor: zoom-in;
 	width: 128px;
-	/*height: 64px;*/
+	/*height: 128px;*/
 }
 
 .pic:focus {
@@ -194,9 +196,52 @@ li.dws-li a:hover{
   	margin: auto;
 }
 
+.fird-screen-text {
+	text-indent: 20px;
+}
+
 /*44444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444*/
 
-/*@media only screen and (min-width : 480px) {
+.fourth-screen {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	background-color: #E01E278E;
+}
+
+.fourth-screen-container {
+	width: 90vw;
+	max-height: 200vh;
+	margin: 0 auto;
+	overflow-y: auto;
+}
+
+.fourth-screen-galery-h1 {
+	text-align: center;
+	padding: 25px 0;
+}
+
+/*55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555*/
+
+.fifth-screen {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	background-color: var(--w);
+}
+
+.fifth-screen-container {
+	width: 90vw;
+	max-height: 200vh;
+	margin: 0 auto;
+	overflow-y: auto;
+}
+
+.fifth-screen-schedule-h1 {
+	text-align: center;
+	padding: 25px 0;
+}
+/*@media only screen and (max-width : 480px) {
 	.first-screen-container {
 	width: 420px;
 	}
@@ -280,22 +325,18 @@ li.dws-li a:hover{
 		display: none;
 	}
 }
-
+*/
 @media only screen and (min-width: 1200px) {
-	.first-screen-container {
-	width: 1100px;
-	}
-
-	li.dws-li a{
- 	text-decoration: none;
- 	font-size: 32px;
- 	}
-
- 	.first-screen-container {
-	background-color: #fc5;
-	}
-
-	.aa, .bb, .cc, .dd, {
+	.first-screen-br {
 		display: none;
 	}
-}*/
+
+	ul.dws-ul {
+ 		display: flex;
+	}
+
+	li.dws-li a {
+	 	font-size: 24px;
+	 	margin: 0px 20px;
+	}
+}
