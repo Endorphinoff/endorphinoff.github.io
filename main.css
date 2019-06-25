@@ -22,6 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+/*11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111*/
+
 .first-screen {
 	margin: 0;
 	padding: 0;
@@ -42,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .i-phone, .i-adress {
 	color: white;
-	font-size: 32px;
+	font-size: 24px;
 }
 
 .first-screen-bf-menu {
@@ -66,10 +68,10 @@ li.dws-li a{
  	font-size: 42px;
  	color: white;
  	position: relative;
- 	margin-left: 150px;
+ 	margin-left: 100px;
 }
 li.dws-li a i{
- 	margin-right: 10px;
+ 	margin-right: 30px;
 }
 li.dws-li a::before{
 	 content: '';
@@ -116,6 +118,9 @@ li.dws-li a:hover{
 	/*width: 100%;*/
 }
 
+/*22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222*/
+
+
 .second-screen {
 	margin: 0;
 	padding: 0;
@@ -128,15 +133,30 @@ li.dws-li a:hover{
 	margin: 0 auto;
 }
 
+.second-screen-h1, .second-screen-h3 {
+	text-align: center;
+	margin: 25px;
+	padding: 50px 0; 
+}
+
+.second-screen-about-imglogo {
+	display: float;
+	float: left;
+	width: 128px;
+	/*margin: 15px;*/
+}
+
 .about {
 	margin: 20px 0;
 }
+
+/*33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333*/
 
 .fird-screen {
 	margin: 0;
 	padding: 0;
 	width: 100vw;
-	background-color: var(--b);
+	background-color: #65ADFF9F;
 }
 
 .fird-screen-container {
@@ -144,16 +164,17 @@ li.dws-li a:hover{
 	margin: 0 auto;
 }
 
+.fird-screen-news-h1, .fird-screen-news-h3 {
+	text-align: center;
+	margin: 25px;
+	padding: 10px 0;
+}
+
 .pic {
 	margin: 5px auto;
 	cursor: zoom-in;
-	width: 64px;
-	height: 64px;
-}
-
-.picX {
-	position: fixed;
-	left: -10000px;
+	width: 128px;
+	/*height: 64px;*/
 }
 
 .pic:focus {
@@ -171,8 +192,9 @@ li.dws-li a:hover{
   	max-width: 99%;
   	max-height: 99%;
   	margin: auto;
-  	
 }
+
+/*44444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444*/
 
 /*@media only screen and (min-width : 480px) {
 	.first-screen-container {
