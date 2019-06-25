@@ -59,13 +59,15 @@ ul.dws-ul{
 }
 li.dws-li{
  	list-style: none;
+ 	margin: 30px;
 }
 li.dws-li a{
  	text-decoration: none;
- 	font-size: 42px;
+ 	font-size: 64px;
  	color: white;
  	position: relative;
- 	margin-left: 50px;
+ 	margin-left: 10px;
+
 }
 li.dws-li a i{
  	margin-right: 50px;
@@ -241,6 +243,9 @@ li.dws-li a:hover{
 	text-align: center;
 	padding: 25px 0;
 }
+
+
+
 /*@media only screen and (max-width : 480px) {
 	.first-screen-container {
 	width: 420px;
